@@ -30,7 +30,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-col md:flex-row items-center justify-center gap-6 pointer-events-auto"
         >
-            <a href="#" className="px-8 py-3 rounded-full bg-[#FC8EAC] text-black font-semibold text-lg hover:bg-[#FC8EAC]/80 transition-colors flex items-center gap-2">
+            <a href="/resume.pdf" download="Khushi_Resume.pdf" className="px-8 py-3 rounded-full bg-[#FC8EAC] text-black font-semibold text-lg hover:bg-[#FC8EAC]/80 transition-colors flex items-center gap-2">
                 Download CV
             </a>
             <a href="https://github.com/khushi-madan18" target="_blank" className="px-8 py-3 rounded-full bg-black border border-[#FC8EAC]/20 text-[#FC8EAC] font-semibold text-lg hover:bg-[#FC8EAC]/10 transition-colors flex items-center gap-2">

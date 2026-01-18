@@ -27,8 +27,8 @@ const Projects = () => {
       {
           title: "Personal Portfolio",
           desc: "A high-performance, 3D interactive portfolio website built with React, Three.js, and Framer Motion. Features a custom particle system and simulated desktop interactions.",
-          link: "https://github.com/khushi-madan18",
-          demo: "https://voca-coach.vercel.app", // Placeholder or self
+          link: "https://github.com/khushi-madan18/PersonalPortfolio.git",
+          demo: "https://personal-portfolio-nu-two-36.vercel.app",
           tags: ["React", "Three.js", "Framer Motion"],
           color: "from-pink-900 to-rose-900",
           accent: "#F472B6", // Pink-400
