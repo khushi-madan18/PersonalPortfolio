@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pink: #FC8EAC;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+/* Custom Utilities */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: #050505;
+  font-family: var(--font-sans);
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
