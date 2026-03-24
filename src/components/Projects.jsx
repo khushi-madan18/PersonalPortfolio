@@ -11,9 +11,30 @@ const Projects = () => {
           demo: "https://voca-coach.vercel.app",
           tags: ["React", "Convex", "DeepSeek"],
           color: "from-blue-900 to-indigo-900",
-          accent: "#60A5FA", // Blue-400
+          accent: "#60A5FA", 
           image: "/images/projects/vocacoach_final.png"
       },
+      {
+          title: "Intelligent News Credibility Analysis",
+          desc: "Developed an NLP pipeline to classify news articles as Fake or Real for misinformation detection. Designed preprocessing and TF-IDF feature engineering to convert raw text into high-dimensional representations.",
+          link: "https://github.com/mansingh-04/GenAI-capstone",
+          demo: "https://news-credibility.streamlit.app/",
+          tags: ["Python", "NLP", "Streamlit"],
+          color: "from-red-900 to-rose-900",
+          accent: "#F87171", 
+          image: "/images/projects/news.png"
+      },
+      {
+          title: "Smart Parking App",
+          desc: "Developed a Smart Valet Parking App that streamlines the parking experience by allowing users to request valet services, track their vehicle status, and manage pickup requests in real-time. The system enhances convenience and reduces waiting time through an intuitive interface and efficient request handling.",
+          link: "https://github.com/mansingh-04/GenAI-capstone",
+          demo: "https://news-credibility.streamlit.app/",
+          tags: ["React", "Node.js", "PostgreSQL"],
+          color: "from-purple-900 to-fuchsia-900",
+          accent: "#C084FC", 
+          image: "/images/projects/smart_parking.png"
+      },
+
       {
           title: "TripTailor",
           desc: "An AI-driven itinerary generator built with React, Gemini API, and Firebase. Creates detailed, personalized travel plans in seconds.",
@@ -21,7 +42,7 @@ const Projects = () => {
           demo: "https://triptailor-eight.vercel.app",
           tags: ["React", "Gemini", "Firebase"],
           color: "from-orange-900 to-red-900",
-          accent: "#FB923C", // Orange-400
+          accent: "#FB923C", 
           image: "/images/projects/triptailor_final.png"
       },
       {
