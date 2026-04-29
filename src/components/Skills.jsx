@@ -1,22 +1,47 @@
 import { motion } from 'framer-motion';
 
 const Skills = () => {
-    // Specific skills requested by the user, sorted alphabetically
     const skills = [
-        { name: "C++", icon: "cplusplus/00599C" },
-        { name: "Express.js", icon: "express/white" },
-        { name: "Figma", icon: "figma/F24E1E" },
-        { name: "GitHub", icon: "github/white" },
-        { name: "HTML", icon: "html5/E34F26" },
-        { name: "JavaScript", icon: "javascript/F7DF1E" },
-        { name: "MongoDB", icon: "mongodb/47A248" },
-        { name: "MySQL", icon: "mysql/4479A1" },
-        { name: "Node.js", icon: "nodedotjs/339933" },
-        { name: "Prisma ORM", icon: "prisma/white" },
-        { name: "Python", icon: "python/3776AB" },
-        { name: "React.js", icon: "react/61DAFB" },
-        { name: "Tailwind CSS", icon: "tailwindcss/06B6D4" },
-        { name: "TypeScript", icon: "typescript/3178C6" },
+        {
+            name: "Excel",
+            path: "/images/projects/image.png" 
+        },
+        { 
+            name: "Python", 
+            path: "https://img.icons8.com/color/48/python--v1.png" 
+        },
+        { 
+            name: "SQL", 
+            path: "https://img.icons8.com/color/48/mysql-logo.png" 
+        },
+        { 
+            name: "Tableau", 
+            path: "https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000" 
+        },
+        { 
+            name: "Pandas", 
+            path: "https://img.icons8.com/color/48/pandas.png" 
+        },
+        { 
+            name: "NumPy", 
+            path: "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000" 
+        },
+        { 
+            name: "Jupyter", 
+            path: "https://img.icons8.com/?size=100&id=J0SgMWzAxqFj&format=png&color=000000" 
+        },
+        { 
+            name: "Google Colab", 
+            path: "https://img.icons8.com/?size=100&id=lOqoeP2Zy02f&format=png&color=000000" 
+        },
+        { 
+            name: "Matplotlib", 
+            path: "https://img.icons8.com/?size=100&id=TkX1totjFmAD&format=png&color=000000" 
+        },
+        { 
+            name: "Seaborn", 
+            path: "/images/projects/seaborn.png" // Ensure this matches your public folder path
+        }
     ];
 
     return (
@@ -65,8 +90,9 @@ const Skills = () => {
                             className="aspect-square w-24 h-24 sm:w-28 sm:h-28 bg-[#0A0A0A] border border-[#FC8EAC]/20 rounded-[2rem] flex flex-col items-center justify-center cursor-pointer group transition-all duration-300 relative"
                             style={{ transformStyle: "preserve-3d" }}
                         >
+                            {/* FIXED IMAGE LOGIC BELOW */}
                             <img 
-                                src={`https://cdn.simpleicons.org/${skill.icon}`} 
+                                src={skill.path} 
                                 alt={skill.name}
                                 className="w-10 h-10 sm:w-12 sm:h-12 object-contain opacity-80 group-hover:opacity-100 transition-opacity"
                                 style={{ transform: "translateZ(20px)" }} 

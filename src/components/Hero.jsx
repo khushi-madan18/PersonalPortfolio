@@ -18,7 +18,7 @@ const Hero = () => {
         
         <div className="mb-12">
             <SplitText 
-                text="Software Developer" 
+                text="Data Analyst" 
                 className="text-5xl md:text-8xl font-bold text-[#FC8EAC] tracking-tighter leading-tight" 
                 delay={0.8}
             />

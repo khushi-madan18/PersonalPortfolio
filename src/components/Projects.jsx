@@ -5,56 +5,24 @@ import SimulatedDashboard from './SimulatedDashboard';
 const Projects = () => {
   const projects = [
       {
-          title: "VocaCoach",
-          desc: "A real-time AI voice interview platform using React, Node.js, Convex DB, and DeepSeek API. Conducts personalized mock interviews with actionable feedback.",
-          link: "https://github.com/khushi-madan18/VocaCoach",
-          demo: "https://voca-coach.vercel.app",
-          tags: ["React", "Convex", "DeepSeek"],
-          color: "from-blue-900 to-indigo-900",
-          accent: "#60A5FA", 
-          image: "/images/projects/vocacoach_final.png"
+          title: "Farmer Decision Support System: Mandi Price Analysis",
+          desc: "Indian farmers often face suboptimal price realization due to information asymmetry and price variations across Mandis (markets). This project analyzes 6,000 transactional records to build a decision support system that moves farmers from intuition-based to insight-based agriculture.",
+          link: "https://github.com/anshika292005/DVA-capstone",
+          tags: ["Excel", "Data Analysis", "Visualization"],
+          color: "from-green-900 to-emerald-900",
+          accent: "#34D399", 
+          image: "/images/projects/mandi_price.png"
       },
       {
-          title: "Intelligent News Credibility Analysis",
-          desc: "Developed an NLP pipeline to classify news articles as Fake or Real for misinformation detection. Designed preprocessing and TF-IDF feature engineering to convert raw text into high-dimensional representations.",
-          link: "https://github.com/mansingh-04/GenAI-capstone",
-          demo: "https://news-credibility.streamlit.app/",
-          tags: ["Python", "NLP", "Streamlit"],
-          color: "from-red-900 to-rose-900",
-          accent: "#F87171", 
-          image: "/images/projects/news.png"
-      },
-      {
-          title: "Smart Parking App",
-          desc: "Developed a Smart Valet Parking App that streamlines the parking experience by allowing users to request valet services, track their vehicle status, and manage pickup requests in real-time. The system enhances convenience and reduces waiting time through an intuitive interface and efficient request handling.",
-          link: "https://github.com/mansingh-04/GenAI-capstone",
-          demo: "https://news-credibility.streamlit.app/",
-          tags: ["React", "Node.js", "PostgreSQL"],
-          color: "from-purple-900 to-fuchsia-900",
-          accent: "#C084FC", 
-          image: "/images/projects/smart_parking.png"
-      },
-
-      {
-          title: "TripTailor",
-          desc: "An AI-driven itinerary generator built with React, Gemini API, and Firebase. Creates detailed, personalized travel plans in seconds.",
-          link: "https://github.com/khushi-madan18/capstoneAITripPlanner.git",
-          demo: "https://triptailor-eight.vercel.app",
-          tags: ["React", "Gemini", "Firebase"],
-          color: "from-orange-900 to-red-900",
-          accent: "#FB923C", 
-          image: "/images/projects/triptailor_final.png"
-      },
-      {
-          title: "Personal Portfolio",
-          desc: "A high-performance, 3D interactive portfolio website built with React, Three.js, and Framer Motion. Features a custom particle system and simulated desktop interactions.",
-          link: "https://github.com/khushi-madan18/PersonalPortfolio.git",
-          demo: "https://personal-portfolio-nu-two-36.vercel.app",
-          tags: ["React", "Three.js", "Framer Motion"],
-          color: "from-pink-900 to-rose-900",
-          accent: "#F472B6", // Pink-400
-          image: "/images/projects/portfolio_final.png"
+          title: "NYC Rolling Sales Analysis",
+          desc: "This project presents a comprehensive analysis of New York City's real estate market using the NYC Rolling Sales dataset (2016–2017). The study examines property transaction patterns, borough-wise pricing dynamics, seasonal sales behavior, and building-age distributions to deliver actionable intelligence for investors, brokers, and market analysts.",
+          link: "https://github.com/ka-ori/SectionB_G16_NYC_RealEstate_Analysis",
+          tags: ["Tableau", "Python", "Jupyter Notebook", "numpy", "pandas", "matplotlib", "seaborn"],
+          color: "from-blue-900 to-sky-900",
+          accent: "#63B3FF0", 
+          image: "/images/projects/nyc.png"
       }
+      
   ];
 
   return (
@@ -131,14 +99,7 @@ const Projects = () => {
                             </div>
 
                             <div className="flex gap-4 pt-4">
-                                <a 
-                                    href={project.demo} 
-                                    target="_blank" 
-                                    className="px-6 py-2 rounded-full text-black font-semibold flex items-center gap-2 transition-opacity hover:opacity-80"
-                                    style={{ backgroundColor: project.accent }}
-                                >
-                                    Live Demo <ArrowRight size={16} />
-                                </a>
+                                
                                  <a 
                                     href={project.link} 
                                     target="_blank" 

@@ -6,18 +6,18 @@ export const Projects3D = () => {
   
   const projects = [
       {
-          title: "VocaCoach",
-          desc: "A real-time AI voice interview platform using React, Node.js, Convex DB, and DeepSeek API. Conducts personalized mock interviews with actionable feedback.",
-          link: "https://github.com/hikhushi/VocaCoach",
-          tags: ["React", "Node.js", "Convex", "DeepSeek API"],
-          color: "from-blue-600 to-cyan-500"
+          title: "Farmer Decision Support System: Mandi Price Analysis",
+          desc: "Indian farmers often face suboptimal price realization due to information asymmetry and price variations across Mandis (markets). This project analyzes 6,000 transactional records to build a decision support system that moves farmers from intuition-based to insight-based agriculture.",
+          link: "https://github.com/anshika292005/DVA-capstone",
+          tags: ["Excel", "Data Analysis", "Visualization"],
+          color: "from-green-900 to-emerald-900"
       },
       {
-          title: "TripTailor",
-          desc: "An AI-driven itinerary generator built with React, Gemini API, and Firebase. Creates detailed, personalized travel plans in seconds.",
-          link: "https://github.com/hikhushi/TripTailor",
-          tags: ["React", "Gemini API", "Firebase", "Tailwind"],
-          color: "from-orange-500 to-amber-500"
+          title: "NYC Rolling Sales Analysis",
+          desc: "This project presents a comprehensive analysis of New York City's real estate market using the NYC Rolling Sales dataset (2016–2017). The study examines property transaction patterns, borough-wise pricing dynamics, seasonal sales behavior, and building-age distributions to deliver actionable intelligence for investors, brokers, and market analysts.",
+          link: "https://github.com/ka-ori/SectionB_G16_NYC_RealEstate_Analysis",
+          tags: ["Tableau", "Python", "Jupyter Notebook", "numpy", "pandas", "matplotlib", "seaborn"],
+          color: "from-blue-900 to-sky-900",
       }
   ];
 
